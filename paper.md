@@ -1,0 +1,78 @@
+---
+title: 'ASReview Datatools: A Python package for managing reference files'
+tags:
+  - Python
+  - Reference
+  - Bibliography
+  - Deduplication
+  - Management
+authors:
+  - name:
+    orcid:
+    equal-contrib: true/false
+    affiliation: "1, 2" # (Multiple affiliations must be quoted)
+  - name: Author Without ORCID
+    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    affiliation: 2
+  - name: Author with no affiliation
+    corresponding: true # (This is how to denote the corresponding author)
+    affiliation: 3
+affiliations:
+ - name:
+   index: 1
+ - name: Institution Name, Country
+   index: 2
+ - name: Independent Researcher, Country
+   index: 3
+date: 7 December 2022
+bibliography: paper.bib
+---
+
+# Summary
+While conducting systematic literature reviews, researchers may use software tools to manage reference datasets.
+ASReview Datatools is a python package that can be used to perform several operations on reference datasets.
+It can be used to stack, convert and deduplicate datasets.
+With the introduction of machine learning assisted screening tools such as ASReview, it is also necessary to manage labels in reference datasets.
+Therefore, ASReview Datatools also offers tools that are specifically designed for managing labeled reference datasets, which can be useful during the screening phase of a systematic literature review.
+To this purpose, it can also be used to create a single (labeled, partly labeled, or unlabeled) dataset from multiple datasets, and to derive a description on the content and labels of a dataset.
+ASReview Datatools can be easily installed and used through PyPI.
+
+# Statement of need
+Reference management is a fundamental step in systematic literature reviews.
+Every modification to a dataset may influence the outcome and should therefore be carefully documented, also in order to improve reproducibility.
+Generally, researchers make use of software packages like EndNote, Mendeley and Zotero.
+Most reference managers are not specifically designed to process reference datasets that include labelling decisions.
+Also, it may be difficult to obtain insight in the exact operations performed due to complexity of documentation.
+
+ASReview Datatools has been developed to meet several requirements:
+- It should be simple to use for users with minimal Python coding experience.
+To this purpose, tutorials are available to facilitate users.
+- Documentation should be clear, complete and concise.
+- It allows for easy modification and extension development.
+ASReview Datatools is open to community contributions and designed to make it easy for any user with limited coding experience to develop and customize their own extensions.
+
+Software packages lack support for operations on labeling decisions.
+ASReview Datatools allows combining datasets while retaining control over labeling decisions.
+
+# Overview
+Files from any reference manager that support RIS as export file format can be processed.
+Additionally, tabular files that use a set of predetermined column names can be processed.
+
+ASReview Datatools provides options for five operations:
+1. Describe: describes the content and labels of a dataset.
+2. Convert: convert RIS file format to tabular file formats or vice versa.
+3. Deduplicate: remove duplicates based on persistent identifiers and title/abstract.
+4. Vertical stacking: combine datasets in the same file format into a single dataset.
+5. Compose: datasets containing records with different labels (or no labels) can be assembled into a single dataset while retaining control over keeping and/or assigning labels.
+
+
+# Citations
+
+
+# Figures
+
+
+# Acknowledgements
+
+
+# References
