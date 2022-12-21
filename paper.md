@@ -84,3 +84,15 @@ ASReview Datatools provides options for five operations:
 
 
 # References
+
+@article{vandeSChoot:2021,
+  title={An open source machine learning framework for efficient and transparent systematic reviews},
+  author={van de Schoot, Rens and de Bruin, Jonathan and Schram, Raoul and Zahedi, Parisa and de Boer, Jan and Weijdema, Felix and Kramer, Bianca and Huijts, Martijn and Hoogerwerf, Maarten and Ferdinands, Gerbrich and others},
+  journal={Nature Machine Intelligence},
+  volume={3},
+  number={2},
+  pages={125--133},
+  year={2021},
+  publisher={Nature Publishing Group},
+  doi={10.1038/s42256-020-00287-7}
+}
