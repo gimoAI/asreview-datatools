@@ -7,23 +7,21 @@ tags:
   - Deduplication
   - Management
 authors:
-  - name:
-    orcid:
-    equal-contrib: true/false
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+  - name: Jonathan de Bruin
+    orcid: 0000-0002-4297-0502
+    affiliation: 1 
+  - name: Gijs Mourits
+    orcid: 0000-0002-4655-0935
     affiliation: 2
-  - name: Author with no affiliation
-    corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 3
+  - name: Rens van de Schoot
+    orcid: 0000-0001-7736-2091
+    corresponding: true
+    affiliation: 2
 affiliations:
- - name:
+ - name: Department of Research and Data Management Services, Information Technology Services, Utrecht University, Utrecht, the Netherlands
    index: 1
- - name: Institution Name, Country
+ - name: Department of Methodology and Statistics, Faculty of Social and Behavioral Sciences, Utrecht University, The Netherlands
    index: 2
- - name: Independent Researcher, Country
-   index: 3
 date: 7 December 2022
 bibliography: paper.bib
 ---
