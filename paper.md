@@ -29,15 +29,10 @@ bibliography: paper.bib
 ---
 
 # Summary
-Systematic literature reviews are a critical part of the research process, as they provide a comprehensive and objective overview of the existing evidence on a particular topic.
-These reviews often involve screening large reference datasets, which can be time-consuming and error-prone.
-To help researchers manage these datasets, ASReview Datatools was developed.
-ASReview Datatools is a python package that provides a suite of tools for managing systematic literature review datasets.
-It can be used to stack, convert and deduplicate datasets.
-With the introduction of machine learning assisted screening tools such as ASReview, it is also necessary to manage labels in reference datasets.
-Therefore, ASReview Datatools also offers tools that are specifically designed for managing labeled reference datasets, which can be useful during the screening phase of a systematic literature review.
-To this purpose, it can also be used to create a single (labeled, partly labeled, or unlabeled) dataset from multiple datasets, and to derive a description on the content and labels of a dataset.
-ASReview Datatools can be easily installed and used through PyPI.
+Systematic literature reviews are a critical part of the research process, as they provide a comprehensive and objective overview of the existing evidence on a particular topic. These reviews often involve screening large datasets containing the meta-data of scientific works. To help researchers manage such datasets, ASReview Datatools was developed. ASReview Datatools is a python package that provides a suite of tools for managing systematic literature review datasets.
+It can be used to describe, convert, convert, deduplicate and stack datasets. With the introduction of machine learning assisted screening tools such as ASReview @ vandeSchoot:2021, it is also necessary to manage labels in datasets (i.e., whether a record in the dataset is relevant or irrelevant to the research question).
+Therefore, ASReview Datatools offers tools designed explicitly for managing (partly) labeled datasets. Partly labeled datasets can be useful for setting the training data needed to train the first iteration of an active learning model. The fully labeled datasets are useful for running simulation studies mimicking the screening phase. For this purpose, datatools offers a merging script to create a single (labeled, partly labeled, or unlabeled) dataset from multiple datasets and to derive a description of the content and labels of a dataset. ASReview Datatools can be easily installed and used through PyPI and tutorials are available on how to use the toolbox.
+
 
 # Statement of need
 Systematic literature reviews involve a comprehensive and transparent search for relevant literature, and an evaluation of the relevance of the identified studies.
@@ -85,7 +80,7 @@ ASReview Datatools provides options for five operations:
 
 # References
 
-@article{vandeSChoot:2021,
+@article{vandeSchoot:2021,
   title={An open source machine learning framework for efficient and transparent systematic reviews},
   author={van de Schoot, Rens and de Bruin, Jonathan and Schram, Raoul and Zahedi, Parisa and de Boer, Jan and Weijdema, Felix and Kramer, Bianca and Huijts, Martijn and Hoogerwerf, Maarten and Ferdinands, Gerbrich and others},
   journal={Nature Machine Intelligence},
